@@ -6,6 +6,7 @@ class Ogc < Formula
     sha256 "2593062179b1665d4d6506c2014e502eef316cef4ea127207cdab31031dbc42e"
   
     depends_on "python3"
+    depends_on "rust" => :build
 
     resource "alembic" do
         url "https://files.pythonhosted.org/packages/30/b9/5526b43a4c54d177ab14af0af4b5c31d73db33d1ad3e30976d3b023e0594/alembic-1.7.7.tar.gz"
